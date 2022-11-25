@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <base href="../../../" />
+    <link rel="stylesheet" href="dmdoc.css" />
+    <title>code&#x2F;modules&#x2F;industrial_lift&#x2F;tram_lift_master.dm - &#x2F;tg&#x2F; Station 13</title>
+</head>
+<body>
+<header>
+    <a href="index.html">&#x2F;tg&#x2F; Station 13</a> -
+    <a href="index.html#modules">Modules</a> -
+    <a href="index.html#types">Types</a>
+</header>
+<main>
+<h1>code/modules/industrial_lift/tram_lift_master.dm 
+            <a href="https://github.com/Lance77am/Skyrat-tg/blob/f31ab6f6c0f5eb5c389c83823aa9310b79454f5f/code/modules/industrial_lift/tram_lift_master.dm">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;industrial_lift&#x2F;tram_lift_master.dm"/></a></h1>
+
+<table class="summary" cellspacing="0">
+        <tr><th><a href="datum&#x2F;lift_master&#x2F;tram.html">&#x2F;datum&#x2F;lift_master&#x2F;tram</a></th><td>Damage calculation for getting hit by the tram. 120 to 240 damage to the player at a lethality of 4. A chance of death, but it's going to hurt.
+var/damage = rand(5, 10) * collision_lethality
+collided.apply_damage(2 * damage, BRUTE, BODY_ZONE_HEAD)
+collided.apply_damage(2 * damage, BRUTE, BODY_ZONE_CHEST)
+collided.apply_damage(0.5 * damage, BRUTE, BODY_ZONE_L_LEG)
+collided.apply_damage(0.5 * damage, BRUTE, BODY_ZONE_R_LEG)
+collided.apply_damage(0.5 * damage, BRUTE, BODY_ZONE_L_ARM)
+collided.apply_damage(0.5 * damage, BRUTE, BODY_ZONE_R_ARM)</td></tr></table></main>
+<footer>
+    tgstation.dme
+    <a href="https://github.com/Lance77am/Skyrat-tg/tree/f31ab6f6c0f5eb5c389c83823aa9310b79454f5f">f31ab6f</a>
+        (master) &mdash; <a href="https://github.com/SpaceManiac/SpacemanDMM/blob/master/src/dmdoc/README.md">dmdoc 1.4.1</a></footer>
+</body>
+</html>
